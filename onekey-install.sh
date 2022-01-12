@@ -22,7 +22,7 @@ ShellDir=$(cd "$(dirname "$0")";pwd)
 ShellName=$0
 JdDir=${ShellDir}/jd
 
-echo -e "\e[33m1.xlbgxlbg运行本脚本前必须自行安装好如下依赖：\e[0m"
+echo -e "\e[33m1.运行本脚本前必须xlbgxlbg自行安装好如下依赖：\e[0m"
 echo -e "    git wget curl perl moreutils node.js npm\e[0m"
 echo -e "\e[33m2.安装过程请务必确保网络通畅\e[0m"
 echo -e "\e[33m\n按任意键开始安装，否则按 Ctrl + C 退出！\e[0m"
