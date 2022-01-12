@@ -32,7 +32,7 @@ wget -q https://cdn.jsdelivr.net/gh/xlbgxlbg/jd-base-1/docker/onekey-docker.sh -
 
     - 检测配置文件模板 `config.sh.sample` 是否升版，如有升版，发出通知
 
-    ```shell
+    ```shell 
     # Linux
     cd {项目安装目录}
     bash git_pull.sh
