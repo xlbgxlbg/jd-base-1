@@ -1,15 +1,3 @@
-# 一、申明
-
-- 本脚本的原作者为 EvineDeng。
-
-- 本脚本只是给 lxk0301/jd_scripts 套层壳，用来运行其中的 js 脚本。
-
-- 请勿将本项目用于任何商业用途！
-
-# 二、如有帮助你薅到羊毛，请不吝赏杯茶水
-
-![thanks](thanks.png)
-
 # 三、快速开始
 
 ## 1. Linux
@@ -18,15 +6,16 @@
 
 运行此脚本前必须手动安装好依赖：`git wget curl perl moreutils node.js npm`  
 ```shell
-wget -q https://cdn.jsdelivr.net/gh/RikudouPatrickstar/jd-base/onekey-install.sh -O onekey-jd-base.sh && chmod +x onekey-jd-base.sh && ./onekey-jd-base.sh
+wget -q https://cdn.jsdelivr.net/gh/xlbgxlbg/jd-base-1/onekey-install.sh -O onekey-jd-base.sh && chmod +x onekey-jd-base.sh && ./onekey-jd-base.sh
 ```
+
 
 ## 2. Docker
 
 ### 脚本一键部署单个容器：
 
 ```shell
-wget -q https://cdn.jsdelivr.net/gh/RikudouPatrickstar/jd-base/docker/onekey-docker.sh -O onekey-jd-docker.sh && chmod +x onekey-jd-docker.sh && ./onekey-jd-docker.sh
+wget -q https://cdn.jsdelivr.net/gh/xlbgxlbg/jd-base-1/docker/onekey-docker.sh -O onekey-jd-docker.sh && chmod +x onekey-jd-docker.sh && ./onekey-jd-docker.sh
 ```
 
 安装 [containrrr/watchtower](https://containrrr.dev/watchtower/) 可自动更新 Docker 容器，更详细的部署说明，请自行查阅其文档。[Docker 相关文件](docker/) 已全部提供，其他玩法自行研究。
