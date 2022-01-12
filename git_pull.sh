@@ -19,8 +19,9 @@ ContentVersion=${ShellDir}/version
 ContentNewTask=${ShellDir}/new_task
 ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
-ScriptsURL=https://github.com.cnpmjs.org/RikudouPatrickstar/jd_scripts
-ShellURL=https://github.com.cnpmjs.org/RikudouPatrickstar/jd-base
+ScriptsURL=https://github.com/xlbgxlbg/scripts
+
+ShellURL=https://github.com/xlbgxlbg/jd-base-1
 
 
 ## 导入配置文件
